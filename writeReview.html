@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    
+<html>
+    <head>
+        <title>Phil's Footwear</title>
+        <link rel="stylesheet" href="./stuff.css">
+        <div class="header">
+            <h1 style="text-shadow:  5px 0 black, 0 -5px black">Phil's Footwear</h1>
+        </div>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" type="image/jpeg" href="./37460.jpeg">
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <a href="index.html" class="pageButtons">Main</a>
+        <a href="shoes.html" class="pageButtons">Shoes</a>
+        <a href="reviews.html" class="pageButtons">Reviews</a>
+        
+        <h2>Write a Review</h2>
+        <br>
+        <ul>
+            <i>Remember!</i>
+            <br>
+            <br>
+            <li>No profanity</li>
+            <li>No racist comments</li>
+            <li>Note</li>
+            <ul>
+                <li>If any of the previous rules are violated your comment will not to published.</li>
+            </ul>
+            <br>
+        </ul>
+        <div>
+          <form action="thankYou.html" method="link">
+            <label for="fname">Full name</label><br>
+            <input type="text" id="fname" class="inputBoxes" placeholder="Your name">
+            <br>
+            <label for="lname">Email</label><br>
+            <input type="hidden" name="_subject" value="Phil's Footwear Review">
+            <input type="email" name="email" id="lname" class="inputBoxes" placeholder="Your email address..">
+            <br><br>
+            <label for="lname">Comment</label><br>
+            <input type="text" id="lname" class="commentBoxes" placeholder="Your comment..">
+              
+            <br>
+            <label for="country">Rating (#/5)</label>
+            <select id="country" name="country">
+              <option value="australia">1</option>
+              <option value="canada">2</option>
+              <option value="usa">3</option>
+            <option value="australia">4</option>
+              <option value="canada">5</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit" class = "leaveReview">
+          </form>
+            
+        </div>
+    </body>
+</html>

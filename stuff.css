@@ -1,0 +1,212 @@
+body{
+    background-image: url("https://piskel-imgstore-b.appspot.com/img/a9f6e6e8-26ed-11ed-9e82-a71a457d05b4.gif");
+    background-attachment: fixed;
+    background-position: center;
+}
+
+p{
+    color:blue;
+    background: red;
+    font-size: 100px;
+    font-style: italic;
+}
+
+.bgImg{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+}
+
+.header{
+    color:white;
+    border: 20px solid black;
+    background-color: gainsboro;
+    font-size: 60px;
+    font-style: italic;
+    position: relative;
+    text-align: center;
+}
+
+.smallTitle{
+    color:black;
+    border: 20px solid black;
+    background-color: gainsboro;
+    font-size: 60px;
+    font-style: oblique;
+    position: relative;
+    text-align: center;
+    width: 500px;
+    margin-left: 30%;
+}
+
+.box{
+    background-color: blue;
+    width:auto;
+    height:auto;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    position: absolute;
+    top:800px;
+    left:10px;
+}
+
+.inputs{
+    background-color: gainsboro;
+    width:auto;
+    height:auto;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.submit{
+    background-color: #4CAF50; /* Green */
+    border : 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    transition-duration: 0.2s;
+    position: relative;
+}
+.submit:hover{
+    background-color: white; /* Green */
+    border : 2px solid black;
+    color: black;
+}
+
+.pageButtons{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.pageButtons:hover {
+  box-shadow: 1px 1px 1px 1px;
+  top: 5px;
+  left: 5px;
+}
+.pageButtons:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+
+.leaveReview{
+    background: #fff;
+    backface-visibility: hidden;
+    border-radius: .375rem;
+    border-style: solid;
+    border-width: .125rem;
+    box-sizing: border-box;
+    color: #212121;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Circular,Helvetica,sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: -.01em;
+    line-height: 1.3;
+    padding: .875rem 1.125rem;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transform: translateZ(0) scale(1);
+    transition: transform .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.leaveReview:hover {
+  transform: scale(1.05);
+}
+
+
+
+.inputBoxes {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.inputBoxes[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.inputBoxes[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.commentBoxes {
+    width: 40%;
+    height: 200px;
+    padding: 12px 20px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.commentBoxes[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.commentBoxes[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+
+.shoeBox{
+    width: 200px;
+    height: 200px;
+    color:black;
+    border: 5px solid black;
+    background-color: white;
+    font-size: 25px;
+    font-style: italic;
+    position: relative;
+    text-align: center;
+    float: left;
+}
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    
+<html>
+    <head>
+        <title>Phil's Footwear</title>
+        <link rel="icon" href="https://piskel-imgstore-b.appspot.com/img/857e6542-26ee-11ed-9589-cb4e2329be9f.gif">
+        <link rel="stylesheet" href="./stuff.css">
+        <div class="header">
+            <h1 style="text-shadow:  5px 0 black, 0 -5px black">Phil's Footwear</h1>
+        </div>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" type="image/jpeg" href="./37460.jpeg">
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <a href="index.html" class="pageButtons">Main</a>
+        <a href="shoes.html" class="pageButtons">Shoes</a>
+        <a href="reviews.html" class="pageButtons">Reviews</a>
+        <ul>
+            <li>Repair</li>
+            <li>New Rackets</li>
+            <li>Q&A</li>
+        </ul>
+        <img src=>
+        <form action="index.html" method="GET">
+            <input class="inputs" type="text" id="name" placeholder="Full Name">
+            <input class="inputs" type="text" id="email" placeholder="Email or Phone#">
+            <input class="inputs" type="text" id="addy" placeholder="Shipping Address">
+            
+        </form>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_xclick">
+            <input type="hidden" name="business" value="231570@whrhs-stu.org">
+            <input type="hidden" name="lc" value="US">
+            <input type="hidden" name="item_name" value="Service">
+            <input type="hidden" name="button_subtype" value="services">
+            <input type="hidden" name="no_note" value="0">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="tax_rate" value="7.000">
+            <input type="hidden" name="shipping" value="4.99">
+            <input type="hidden" name="bn" value="PP-BuyNowBF:btn_paynowCC_LG.gif:NonHostedGuest">
+            <table>
+            <tr><td><input type="hidden" name="on0" value="Choose">Choose</td></tr><tr><td><select name="os0">
+                <option value="String replace">String replace $29.99 USD</option>
+                <option value="New Racket">New Racket $149.99 USD</option>
+            </select> </td></tr>
+            </table>
+            <input type="hidden" name="option_select0" value="String replace">
+            <input type="hidden" name="option_amount0" value="29.99">
+            <input type="hidden" name="option_select1" value="New Racket">
+            <input type="hidden" name="option_amount1" value="149.99">
+            <input type="hidden" name="option_index" value="0">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+        <div style="height: 50px">
+        </div>
+    </body>
+</html>
