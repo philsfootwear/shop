@@ -5,9 +5,8 @@ body{
 }
 
 p{
-    color:blue;
-    background: red;
-    font-size: 100px;
+    color:black;
+    font-size: 30px;
     font-style: italic;
 }
 
@@ -37,6 +36,20 @@ p{
     text-align: center;
     width: 500px;
     margin-left: 30%;
+}
+
+.aboutMe{
+    background-color: gainsboro;
+    width:70%;
+    height: 400px;
+    padding: 10px;
+    border: 20px solid white;
+    position: relative;
+    margin-left: 13%;
+}
+
+.comment{
+    font-weight: bold;
 }
 
 .box{
