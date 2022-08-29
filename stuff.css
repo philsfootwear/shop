@@ -48,6 +48,13 @@ p{
     margin-left: 13%;
 }
 
+.commentDiv{
+    background-color: white;
+    width: 60%;
+    
+}
+
+
 .comment{
     font-weight: bold;
 }
@@ -99,6 +106,7 @@ p{
     letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
+    background-color: white;
     color: #000;
     cursor: pointer;
     border: 3px solid;
@@ -211,7 +219,7 @@ p{
 
 .shoeBox{
     width: 200px;
-    height: 200px;
+    height: 250px;
     color:black;
     border: 5px solid black;
     background-color: white;
@@ -220,6 +228,21 @@ p{
     position: relative;
     text-align: center;
     float: left;
+    margin: 10px;
+}
+.shoeBox:hover{
+    width: 200px;
+    height: 250px;
+    color:black;
+    border: 5px solid black;
+    background-color: white;
+    font-size: 25px;
+    font-style: italic;
+    position: relative;
+    text-align: center;
+    float: left;
+    margin: 10px;
+    transform: translateZ(0) scale(1.05);
 }
 
 
